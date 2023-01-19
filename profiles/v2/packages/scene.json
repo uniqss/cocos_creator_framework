@@ -2,7 +2,7 @@
   "__version__": "1.0.0",
   "current-scene": "4753fa27-55ac-44df-94a5-a91c50b1cd4d",
   "gizmos-infos": {
-    "is2D": false,
+    "is2D": true,
     "is3DIcon": false,
     "iconSize": 2,
     "gridVisible": true,
@@ -109,7 +109,7 @@
     }
   },
   "camera-uuids": [
-    "a18214d2-f37c-41d3-908b-0a859a46c913"
+    "f46876e4-e81b-4931-b493-6d367be385e7"
   ],
   "float-window": {
     "position": {
@@ -123,5 +123,26 @@
         }
       }
     }
+  },
+  "scene": {
+    "native": false
+  },
+  "camera": {
+    "fov": 45,
+    "far": 10000,
+    "near": 0.01,
+    "color": [
+      48,
+      48,
+      48,
+      255
+    ],
+    "wheelSpeed": 0.01,
+    "wanderSpeed": 10,
+    "enableAcceleration": true,
+    "far2D": 10000,
+    "near2D": 1,
+    "wheelSpeed2D": 6,
+    "size": "__default_design__"
   }
 }
